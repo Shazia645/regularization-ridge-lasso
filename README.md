@@ -13,10 +13,12 @@ Target: **Profit**. The categorical `State` column is one-hot encoded.
 - Used `RidgeCV` and `LassoCV` (5-fold CV) to find the best alpha
 
 ## Results
-Model	Best params	Test R2
-Ridge	alpha=0.1	0.8985
-Lasso	alpha=1000	0.9166
-ElasticNet	alpha=1000, l1_ratio=1.0	0.9166
+
+| Model | Best params | Test R2 |
+|-------|-------------|---------|
+| Ridge | alpha=0.1 | 0.8985 |
+| Lasso | alpha=1000 | 0.9166 |
+| ElasticNet | alpha=1000, l1_ratio=1.0 | 0.9166 |
 
 ## Key Learnings
 - R&D Spend is the strongest predictor of profit
